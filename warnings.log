@@ -1,0 +1,101 @@
+2026-05-02 17:54:26,156 [ThreadPoolEx] [WARNI]  Ollama query attempt 1 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-05-02 18:12:56,139 [MainThread  ] [ERROR]  Error occurred during run_batch_jobs.
+Traceback (most recent call last):
+  File "/Users/tigonguyen/Documents/DevOps/repos/personal-projects/MedAgentSim/MedPromptSimulate/src/promptbase/mmlu/utils.py", line 93, in run_batch_jobs
+    result = future.result()
+  File "/Users/tigonguyen/miniconda3/envs/mgent/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/Users/tigonguyen/miniconda3/envs/mgent/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/Users/tigonguyen/miniconda3/envs/mgent/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/tigonguyen/Documents/DevOps/repos/personal-projects/MedAgentSim/MedPromptSimulate/src/promptbase/mmlu/experiment.py", line 604, in solve
+    reflect_phase(options, problem, output, backend)
+  File "/Users/tigonguyen/Documents/DevOps/repos/personal-projects/MedAgentSim/MedPromptSimulate/src/promptbase/mmlu/experiment.py", line 633, in reflect_phase
+    Correct Reasoning: {correct_reasoning[problem['correct_answer']]}
+KeyError: None
+2026-05-02 18:17:52,868 [MainThread  ] [ERROR]  Error occurred during run_batch_jobs.
+Traceback (most recent call last):
+  File "/Users/tigonguyen/Documents/DevOps/repos/personal-projects/MedAgentSim/MedPromptSimulate/src/promptbase/mmlu/utils.py", line 93, in run_batch_jobs
+    result = future.result()
+  File "/Users/tigonguyen/miniconda3/envs/mgent/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/Users/tigonguyen/miniconda3/envs/mgent/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/Users/tigonguyen/miniconda3/envs/mgent/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/tigonguyen/Documents/DevOps/repos/personal-projects/MedAgentSim/MedPromptSimulate/src/promptbase/mmlu/experiment.py", line 604, in solve
+    reflect_phase(options, problem, output, backend)
+  File "/Users/tigonguyen/Documents/DevOps/repos/personal-projects/MedAgentSim/MedPromptSimulate/src/promptbase/mmlu/experiment.py", line 633, in reflect_phase
+    Correct Reasoning: {correct_reasoning[problem['correct_answer']]}
+KeyError: None
+2026-05-02 18:26:30,814 [MainThread  ] [WARNI]  Ollama query attempt 1 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=5.0)
+2026-05-02 18:26:35,821 [MainThread  ] [ERROR]  Max retries exceeded: Unable to fetch response from Ollama.
+2026-05-02 21:39:26,987 [ThreadPoolEx] [WARNI]  Ollama query attempt 1 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-05-02 22:33:51,086 [MainThread  ] [ERROR]  Error occurred during run_batch_jobs.
+Traceback (most recent call last):
+  File "/Users/tigonguyen/Documents/DevOps/repos/personal-projects/MedAgentSim/MedPromptSimulate/src/promptbase/mmlu/utils.py", line 93, in run_batch_jobs
+    result = future.result()
+  File "/Users/tigonguyen/miniconda3/envs/mgent/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/Users/tigonguyen/miniconda3/envs/mgent/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/Users/tigonguyen/miniconda3/envs/mgent/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/tigonguyen/Documents/DevOps/repos/personal-projects/MedAgentSim/MedPromptSimulate/src/promptbase/mmlu/experiment.py", line 604, in solve
+    reflect_phase(options, problem, output, backend)
+  File "/Users/tigonguyen/Documents/DevOps/repos/personal-projects/MedAgentSim/MedPromptSimulate/src/promptbase/mmlu/experiment.py", line 633, in reflect_phase
+    Correct Reasoning: {correct_reasoning[problem['correct_answer']]}
+KeyError: None
+2026-05-02 22:46:24,364 [MainThread  ] [ERROR]  Error occurred during run_batch_jobs.
+Traceback (most recent call last):
+  File "/Users/tigonguyen/Documents/DevOps/repos/personal-projects/MedAgentSim/MedPromptSimulate/src/promptbase/mmlu/utils.py", line 93, in run_batch_jobs
+    result = future.result()
+  File "/Users/tigonguyen/miniconda3/envs/mgent/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/Users/tigonguyen/miniconda3/envs/mgent/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/Users/tigonguyen/miniconda3/envs/mgent/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/tigonguyen/Documents/DevOps/repos/personal-projects/MedAgentSim/MedPromptSimulate/src/promptbase/mmlu/experiment.py", line 604, in solve
+    reflect_phase(options, problem, output, backend)
+  File "/Users/tigonguyen/Documents/DevOps/repos/personal-projects/MedAgentSim/MedPromptSimulate/src/promptbase/mmlu/experiment.py", line 633, in reflect_phase
+    Correct Reasoning: {correct_reasoning[problem['correct_answer']]}
+KeyError: None
+2026-05-02 22:47:14,902 [MainThread  ] [WARNI]  Ollama query attempt 1 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=5.0)
+2026-05-02 22:47:19,904 [MainThread  ] [ERROR]  Max retries exceeded: Unable to fetch response from Ollama.
+2026-05-02 22:58:11,768 [MainThread  ] [ERROR]  Error occurred during run_batch_jobs.
+Traceback (most recent call last):
+  File "/Users/tigonguyen/Documents/DevOps/repos/personal-projects/MedAgentSim/MedPromptSimulate/src/promptbase/mmlu/utils.py", line 93, in run_batch_jobs
+    result = future.result()
+  File "/Users/tigonguyen/miniconda3/envs/mgent/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/Users/tigonguyen/miniconda3/envs/mgent/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/Users/tigonguyen/miniconda3/envs/mgent/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/tigonguyen/Documents/DevOps/repos/personal-projects/MedAgentSim/MedPromptSimulate/src/promptbase/mmlu/experiment.py", line 604, in solve
+    reflect_phase(options, problem, output, backend)
+  File "/Users/tigonguyen/Documents/DevOps/repos/personal-projects/MedAgentSim/MedPromptSimulate/src/promptbase/mmlu/experiment.py", line 633, in reflect_phase
+    Correct Reasoning: {correct_reasoning[problem['correct_answer']]}
+KeyError: None
+2026-05-02 23:09:36,763 [MainThread  ] [WARNI]  Ollama query attempt 1 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=5.0)
+2026-05-02 23:09:41,775 [MainThread  ] [ERROR]  Max retries exceeded: Unable to fetch response from Ollama.
+2026-05-03 12:29:18,835 [MainThread  ] [ERROR]  Error occurred during run_batch_jobs.
+Traceback (most recent call last):
+  File "/Users/tigonguyen/Documents/DevOps/repos/personal-projects/MedAgentSim/MedPromptSimulate/src/promptbase/mmlu/utils.py", line 93, in run_batch_jobs
+    result = future.result()
+  File "/Users/tigonguyen/miniconda3/envs/mgent/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/Users/tigonguyen/miniconda3/envs/mgent/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/Users/tigonguyen/miniconda3/envs/mgent/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/Users/tigonguyen/Documents/DevOps/repos/personal-projects/MedAgentSim/MedPromptSimulate/src/promptbase/mmlu/experiment.py", line 604, in solve
+    reflect_phase(options, problem, output, backend)
+  File "/Users/tigonguyen/Documents/DevOps/repos/personal-projects/MedAgentSim/MedPromptSimulate/src/promptbase/mmlu/experiment.py", line 633, in reflect_phase
+    Correct Reasoning: {correct_reasoning[problem['correct_answer']]}
+KeyError: None
+2026-05-03 12:31:18,866 [ThreadPoolEx] [WARNI]  Ollama query attempt 1 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-05-03 14:09:58,026 [ThreadPoolEx] [WARNI]  Ollama query attempt 1 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)
+2026-05-03 14:30:33,147 [ThreadPoolEx] [WARNI]  Ollama query attempt 1 failed: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=120)

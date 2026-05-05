@@ -619,7 +619,7 @@ if __name__ == "__main__":
 
     gc.collect()
     torch.cuda.empty_cache()
-    os.environ["HF_HOME"] = "/l/users/komal.kumar/datasets/.cache/huggingface/"
+    os.environ["HF_HOME"] = os.path.expanduser("~/.cache/huggingface/")
     parser = argparse.ArgumentParser(description="Medical Diagnosis Simulation CLI")
 
     # Configuration file path

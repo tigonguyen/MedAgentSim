@@ -43,4 +43,3 @@ dependencies:
     - torchaudio==2.5.1
     - tensorboard
     - tqdm
-prefix: /Users/komal.kumar/miniconda3/envs/mgent

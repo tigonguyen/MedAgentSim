@@ -38,7 +38,7 @@ class BAgent:
         model_name="meta-llama/Llama-3.3-70B-Instruct",
         server_url="http://localhost:8012/v1/chat/completions",
         ollama_url="http://localhost:11434",
-        ollama_model="llama3.3:70b"
+        ollama_model="llama3.1:8b"
     ):
         """
         Initializes the BAgent:
@@ -340,7 +340,7 @@ class BAgent:
         response_counts = {response: responses.count(response) for response in responses}
         return max(response_counts, key=response_counts.get)
 
-fallback_agent = BAgent()
+fallback_agent = BAgent(model_name="llama3.1:8b", ollama_model="llama3.1:8b")
 
 def query_model(model_str: str,
                 prompt: str,
@@ -450,7 +450,7 @@ def query_model(model_str: str,
                 from openai import OpenAI  # Assuming OpenAI integration for this model
                 client_nvidia = OpenAI(
                     base_url="https://integrate.api.nvidia.com/v1",
-                    api_key="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"
+                    api_key=os.environ.get("NVIDIA_API_KEY", "")
                 )
                 response = client_nvidia.chat.completions.create(
                     model="meta/llama-3.1-405b-instruct",

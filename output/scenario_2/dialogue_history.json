@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "What have been his feeding habits like over the past few weeks? Has he been showing any interest in food, or has it been more of a struggle to get him to eat?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "\"Mommy says I used to love eating, but now I don't want my bottle as much. It's hard for her to get me to drink from it.\""
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I've asked one question, let's ask another. Has there been any change in his bowel movements, such as fewer or more frequent stools?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "\"No, his poop is still coming out normally. It looks like usual, brown and not too runny.\""
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Have you noticed any vomiting or regurgitation after feeding, sweetie? \n\n(Please respond with the patient's answer)"
+  },
+  {
+    "speaker": "Patient",
+    "text": "\"Uh-uh, no puking. Mommy says I'm still getting full and stuff, but it takes her a lot longer to get me fed.\""
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Has he been experiencing any discomfort or pain when you touch his abdomen? Can you show me how he reacts when I press on different areas of his tummy?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "\"Owwwww! *starts crying loudly* Oh no, stop it! *tries to squirm away* Make it stop!\""
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Unfortunately, based on the provided discussion, I couldn't find any consensus or mention of cholecystitis as a potential diagnosis. The doctors discussed various possibilities such as GERD, pyloric stenosis, Prader-Willi syndrome, gastrointestinal infections, allergies, and neurological causes.\n\nGiven the information presented in the discussion, it seems that the most likely diagnosis based on majority vote is:\n\nDIAGNOSIS READY: Pyloric Stenosis"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Hirschsprung disease",
+    "DIAGNOSIS_READY_Simulation": "Scene 2, The diagnosis was INCORRECT, 0%"
+  }
+]

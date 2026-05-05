@@ -16,7 +16,7 @@ def main(api_key, replicate_api_key, inf_type, doctor_bias, patient_bias, doctor
         os.environ["REPLICATE_API_TOKEN"] = replicate_api_key
     if doctor_llm in anthropic_llms:
         os.environ["ANTHROPIC_API_KEY"] = anthropic_api_key
-    output_dir = "/media/mbzuaiser/SSD1/Komal/Documents/multiagent/MedAgentSim/output"
+    output_dir = os.path.join(os.getcwd(), "output")
     os.makedirs(output_dir, exist_ok=True)
     # Load the appropriate scenario loader
     if dataset == "MedQA":

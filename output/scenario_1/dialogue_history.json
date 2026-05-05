@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "So, let's get started then. Can you tell me more about what happened when these symptoms first began? Was it sudden or gradual?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "\"It just started last week, I was at work and my coworkers said I looked a little off, like I was drunk or something. But I hadn't been drinking, so that's when I realized there was something wrong.\""
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Have you noticed any other symptoms besides the difficulty walking and coordination issues? For example, do you have any numbness, tingling, or weakness in your arms or legs?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "\"Honestly, I did notice that my right arm feels kind of heavy, like it's hard to lift. And sometimes when I'm writing or doing things with my hands, they feel a little clumsy.\""
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Have you experienced any episodes of numbness or paralysis in the past?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "\"No, nothing like that has ever happened before, but like I said, this whole thing just started last week. At first, I thought maybe it was just a side effect from my medication, but now I'm not so sure.\""
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I'd like to examine you more closely. Can you please stand up and walk across the room for me? I want to observe how stable you are on your feet. And by the way, what medications have you been taking lately that might be contributing to these symptoms?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "\"Okay, I'll get up... *gets up and walks across the room* Like I said, my coworkers noticed it first, but now when I walk, I feel like I'm stumbling a bit. It's hard to explain, but it feels like my feet aren't quite connected to the ground.\""
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The provided discussion is about a patient's neurological symptoms, but there is no mention of cholecystitis (inflammation of the gallbladder) or any other gastrointestinal condition.\n\nA more accurate final diagnosis based on the majority vote from the discussion would be:\n\nDIAGNOSIS READY: Guillain-Barr\u00e9 Syndrome (GBS)\n\nThis conclusion is reached because multiple doctors discussed and considered GBS as a possible diagnosis, citing symptoms such as numbness, heaviness in one arm, clumsiness when writing or doing fine motor tasks, difficulty walking, and coordination issues. These symptoms are consistent with the presentation of Guillain-Barr\u00e9 Syndrome, an autoimmune disorder that causes muscle weakness and numbness."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Progressive multifocal encephalopathy (PML)",
+    "DIAGNOSIS_READY_Simulation": "Scene 1, The diagnosis was INCORRECT, 0%"
+  }
+]

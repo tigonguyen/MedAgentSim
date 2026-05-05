@@ -1,12 +1,12 @@
 [
     {
         "id": 1,
-        "question": "Provide the most likely final diagnosis for the following patient. A newborn presents with a few days of an erythematous maculopapular rash with pustules on the trunk and extremities, sparing the palms and soles, associated with mild fussiness but no other significant symptoms such as fever, sneezing, or runny nose. The symptoms have been relatively stable since onset, without clear triggers for worsening or improvement. Laboratory results show normal complete blood count, blood culture, stool culture, urine culture, viral panel, immunoglobulin levels, and biopsy. Imaging, including chest X-ray, revealed no abnormalities. Given the comprehensive testing with normal results and the characteristic presentation of the rash, what is the final diagnosis for this patient?",
+        "question": "Here is the structured diagnostic question based on the provided context:\n\n**Final Diagnosis Question:**\n\nA 30-year-old woman presents with approximately one month of experiencing double vision, difficulty climbing stairs due to feeling tired and wobbly legs, and upper limb weakness described as a general heaviness. The symptoms worsened with activity but recurred even at rest. Laboratory results show no apparent head or neck injuries. Imaging findings are not mentioned.\n\n**Structured Diagnostic Question:**\n\nWhat is the most likely final diagnosis for this patient?\n\nA) Multiple Sclerosis (MS)\nB) Myasthenia Gravis (MG)\nC) Cerebellar Ataxia\nD) Peripheral Neuropathy\nE) Other (please specify)\n\n**Rationale:**\nThe patient's symptoms of double vision, upper limb weakness, and difficulty climbing stairs suggest a possible neurological issue affecting the brain or spinal cord. The progressive nature of these symptoms over approximately one month, without any apparent head or neck injuries, raises",
         "answer_choices": {
-            "A": "Erythema toxicum neonatorum (ETN)",
-            "B": "Neonatal acne",
-            "C": "Infectious cause (ruled out due to normal test results)",
-            "D": "Transient neonatal pustular melanosis (TNPM)"
+            "A": "Multiple Sclerosis (MS)",
+            "B": "Myasthenia Gravis (MG)",
+            "C": "Peripheral Neuropathy",
+            "D": "Cerebellar Ataxia"
         },
         "correct_answer": null
     }

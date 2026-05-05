@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "\"Good morning, I'm Dr. Agent. Can you tell me when these symptoms started and if they've been getting progressively worse?\""
+  },
+  {
+    "speaker": "Patient",
+    "text": "\"About a month ago, I think. They seem to be getting a bit more... noticeable, especially after I do something physical.\""
+  },
+  {
+    "speaker": "Doctor",
+    "text": "\"Have you experienced any numbness or tingling sensations in your limbs? And have you had any recent falls or injuries that could be related to these symptoms?\""
+  },
+  {
+    "speaker": "Patient",
+    "text": "\"No, no numbness or tingling. Just a bit of weakness when I try to brush my hair or lift anything heavy.\""
+  },
+  {
+    "speaker": "Doctor",
+    "text": "\"Have you noticed any difficulty with your speech or swallowing? Also, have you had any recent changes in your vision, such as blurred vision or loss of peripheral vision?\""
+  },
+  {
+    "speaker": "Patient",
+    "text": "\"No, nothing with my speech or swallowing. But I have been noticing that things seem... blurry when I'm not really looking at them directly. Like if I'm trying to climb stairs and I look down, everything just gets a bit fuzzy.\""
+  },
+  {
+    "speaker": "Doctor",
+    "text": "\"Okay, that's helpful to know. Have you ever experienced anything like this before, or is this a new symptom for you?\""
+  },
+  {
+    "speaker": "Patient",
+    "text": "\"Definitely not something I've experienced before. It's been really frustrating, especially since it seems to get worse when I'm more active.\""
+  },
+  {
+    "speaker": "Doctor",
+    "text": "It seems there was an error in the final response, as the provided text does not mention any symptoms or test results related to cholecystitis.\n\nConsidering the entire discussion among the doctors, they have been debating various possibilities, including Multiple Sclerosis (MS), myasthenia gravis (MG), and other conditions. However, none of these discussions conclude with a final diagnosis of Cholecystitis.\n\nTo arrive at a Final Diagnosis based on this discussion:\n\n**DIAGNOSIS READY: Multiple Sclerosis (MS)**\n\nThe majority of the doctors agreed that the patient's symptoms were concerning for MS, including weakness in limbs, worsening with physical activity, and blurred vision when looking at objects peripherally. The consensus was to order an MRI to confirm the diagnosis."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Myasthenia gravis",
+    "DIAGNOSIS_READY_Simulation": "Scene 0, The diagnosis was INCORRECT, 0%"
+  }
+]
